@@ -1,0 +1,36 @@
+.circle {
+    border: 15px solid;
+    border-radius: 500px;
+    margin: 10px;
+    display: inline-block;
+    width: 75px;
+    height: 75px;
+}
+
+.row {
+    text-align: center;
+}
+
+.c1 {
+    border-color: blue
+}
+
+.c2 {
+    border-color: black
+}
+
+.c3 {
+    border-color: red
+}
+
+.c4 {
+    border-color: yellow
+}
+
+.c5 {
+    border-color: green
+}
+
+h1 {
+    text-align: center
+}
