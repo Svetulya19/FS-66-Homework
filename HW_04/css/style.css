@@ -3,8 +3,10 @@
     border-radius: 500px;
     margin: 10px;
     display: inline-block;
-    width: 75px;
-    height: 75px;
+    width: 175px;
+    height: 175px;
+    position: relative;
+
 }
 
 .row {
@@ -12,23 +14,41 @@
 }
 
 .c1 {
-    border-color: blue
+    border-color: blue;
+    margin-right: 5px;
+    margin-bottom: -70px;
+    z-index: 3;
 }
 
 .c2 {
-    border-color: black
+    border-color: black;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-bottom: -70px;
+    z-index: 2;
+
 }
 
 .c3 {
-    border-color: red
+    border-color: red;
+    margin-left: 5px;
+    margin-bottom: -70px;
+    z-index: 3;
+
 }
 
 .c4 {
-    border-color: yellow
+    border-color: yellow;
+    margin-right: 5px;
+    margin-top: -50px;
+    z-index: 4;
 }
 
 .c5 {
-    border-color: green
+    border-color: green;
+    margin-left: 5px;
+    margin-top: -50px;
+    z-index: 4;
 }
 
 h1 {
