@@ -1,0 +1,69 @@
+.header {
+    text-align: center;
+}
+.main {
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+td{
+    border: 1px solid black;
+       width: 100px;
+    height: 100px;
+}
+
+.white .cub_1 {
+
+background-color: white;
+}
+.white .cub_2 {
+background-color: black;
+
+}
+.white .cub_3 {
+    background-color: white;
+}
+.white .cub_4 {
+    background-color: black;
+}
+.white .cub_5 {
+    background-color: white;
+}
+.white .cub_6 {
+    background-color: black;
+}
+.white .cub_7 {
+    background-color: white;
+}
+.white .cub_8 {
+    background-color: black;
+}
+.black .c_1 {
+    background-color: black;
+}
+.black .c_2 {
+    background-color: white;
+}
+.black .c_3 {
+    background-color: black;
+}
+.black .c_4 {
+    background-color: white;
+}
+.black .c_5 {
+    background-color: black;
+}
+.black .c_6 {
+    background-color: white;
+}
+.black .c_7 {
+    background-color: black;
+}
+.black .c_8 {
+    background-color: white;
+}
+
+
