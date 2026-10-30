@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+  <meta charset = "UTF-8">
+	<meta name = "viewport"
+		  content = "width=device-width, initial-scale=1.0">
+	<link rel = "stylesheet" href = "../css/styleForm.css">
+  <title>Form</title>
+</head>
+<body>
+<form action = "#" method = "get">
+	<fieldset id="fieldset">
+		<legend>Personal data</legend>
+		<p>
+			<label for = "fName">First Name*</label>
+			<input id = "fName"
+				   type = "text"
+				   name = "firstName"
+				   placeholder = "Peter"
+				   required>
+		</p>
+		<p>
+			<label>Last Name
+			    <input type = "text"
+					   name = "lastName"
+					   placeholder = "Smith">
+			</label>
+		</p>
+		<fieldset id = "fieldset2">
+			<legend>Contacts</legend>
+		    <p>
+		        <label>Email:*
+			        <input type = "email" name = "email" placeholder = "qqqqq@gmail.com"
+					   required>
+			    </label>
+		    </p>
+		    <p>
+		        <label>Telephone:*
+			        <input type = "tel"
+					   name = "telephone"
+					   placeholder = "111222333456"
+					   required>
+			    </label>
+		    </p>
+			<p>
+		        <label>Number:
+			        <input type = "number"
+						   name = "num"
+						   placeholder = "123" min="5" max="25" step="3"
+						   required>
+			    </label>
+		    </p>
+		</fieldset>
+		<p>
+			<label>Password:*
+				<input type = "password"
+					   name = "password"
+					   placeholder = "qqqEEE123$"
+					   required>
+			</label>
+		</p>
+		<p>
+			<label>Male
+				<input type = "radio"
+					   name = "gender"
+					   value = "male">
+			</label>
+			<label>Female
+				<input type = "radio"
+					   name = "gender"
+					   value = "female">
+			</label>
+		</p>
+		<p>Hobby:
+			<label>
+				<input type = "checkbox"
+					   name = "hobby"
+					   value = "reading">Reading
+			</label>
+			<label>
+				<input type = "checkbox"
+					   name = "hobby"
+					   value = "traveling">Traveling
+			</label>
+			<label>
+				<input type = "checkbox"
+					   name = "hobby"
+					   value = "gaming">Gaming
+			</label>
+		</p>
+		<p>
+			<label>Language:
+				<select name = "lang"
+						id = "lang1">
+					<option value = "en">English</option>
+					<option value = "ar">Arabic</option>
+					<option value = "he">Hebrew</option>
+				</select>
+			</label>
+		</p>
+		<p>
+			<label>Date of birth:
+				<input type = "date"
+					   name = "birthdate"
+					   id = "dob">
+			</label>
+		</p>
+	<p>
+		<label>Comment:
+			<br>
+			<textarea name = "comment"
+					  id = "cmt"
+					  cols = "30"
+					  rows = "10"
+					  maxlength = "250"
+					  minlength = "10"
+					  required></textarea>
+		</label>
+	</p>
+	
+		
+	</fieldset>
+	<button type = "submit">Send</button>
+	<button type = "reset">Reset</button>
+	<button type = "button">Next</button>
+	<button type = "button">Prev</button>
+	<button type = "button"
+			onclick = "alert('Alarm-Alarm!!!')">Alert</button>
+</form>
+
+</body>
+</html>
